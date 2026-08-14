@@ -3,141 +3,219 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hoja de Vida - Yojhan Forero</title>
-    <link rel="stylesheet" href="estilos.css">
-    <!-- Iconos FontAwesome para contactos -->
+    <title>Portafolio - Yojhan Forero | Desarrollador de Software</title>
+    <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
-    <div class="contenedor">
-        
-        <aside class="lateral">
-            
-            <section class="bloque">
-                <h2>SOBRE MÍ</h2>
+<!-- From Uiverse.io by risabbir --> 
+<div class="container" aria-hidden="true"></div>
+
+
+    <nav class="navegacion">
+        <div class="logo">Yojhan<span>Forero</span></div>
+        <ul class="menu">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobremi">Sobre mí</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#experiencia">Trayectoria</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <header id="inicio" class="hero">
+        <div class="hero-contenido">
+            <div class="hero-texto">
+                <p class="saludo">Hola, soy</p>
+                <h1>Yojhan Forero</h1>
+                <h2>Aprendiz SENA en Análisis y Desarrollo de Software</h2>
+                <p class="descripcion-corta">Apasionado por el desarrollo web, las bases de datos y la creación de soluciones digitales eficientes.</p>
+                <div class="acciones">
+                    <a href="#proyectos" class="boton primario">Ver Proyectos</a>
+                    <a href="#contacto" class="boton secundario">Contactar</a>
+                </div>
+            </div>
+            <div class="hero-foto">
+<img src="image.png" alt="Foto de Yojhan Forero" width="190" height="220" loading="eager">            </div>
+        </div>
+    </header>
+
+    <div class="contenedor-principal">
+
+        <section id="sobremi" class="seccion">
+            <h2 class="titulo-seccion">SOBRE MÍ</h2>
+            <div class="tarjeta-sobremi">
                 <p>
                     Aprendiz del SENA en Análisis y Desarrollo de Software, con interés en el desarrollo de aplicaciones, aprendizaje continuo y trabajo en equipo. Me caracterizo por mi responsabilidad, compromiso y disposición para adquirir nuevos conocimientos y aportar al cumplimiento de los objetivos de la organización.
                 </p>
-            </section>
+            </div>
+        </section>
 
-            <section class="bloque">
-                <h2>HABILIDADES</h2>
-                <ul class="lista">
-                    <li>ACTITUD POSITIVA</li>
-                    <li>AMIGABLE</li>
-                    <li>RESPONSABLE</li>
-                    <li>RESPETUOSO</li>
-                    <li>BUEN COMPAÑERO DE EQUIPO</li>
-                    <li>RÁPIDO APRENDIZAJE</li>
-                    <li>COLABORADOR</li>
-                    <li>HONESTO</li>
-                    <li>MANEJO DE PRODUCTOS QUÍMICOS Y ORGÁNICOS</li>
-                    <li>CONOCIMIENTO EN LENGUAJES DE PROGRAMACIÓN: PYTHON, JAVA Y JAVASCRIPT.</li>
-                    <li>CONOCIMIENTOS EN BASES DE DATOS: SQL Y NOSQL.</li>
-                    <li>CONOCIMIENTO EN DESARROLLO WEB: HTML5 Y CSS.</li>
-                </ul>
-            </section>
-
-            <section class="bloque">
-                <h2>REFERENCIAS</h2>
-                <div class="referencia">
-                    <p class="nombre">YESID FORERO</p>
-                    <p class="lugar">Finca El Achote</p>
-                    <p class="telefono">T: +573222266577</p>
+        <section id="habilidades" class="seccion">
+            <h2 class="titulo-seccion">HABILIDADES Y TECNOLOGÍAS</h2>
+            
+            <div class="grilla-habilidades">
+                <div class="tarjeta-habilidad">
+                    <div class="icono-habilidad"><i class="fas fa-code"></i></div>
+                    <h3>Desarrollo & Lenguajes</h3>
+                    <ul>
+                        <li><i class="fab fa-python"></i> Python</li>
+                        <li><i class="fab fa-java"></i> Java</li>
+                        <li><i class="fab fa-js"></i> JavaScript</li>
+                        <li><i class="fab fa-html5"></i> HTML5 & CSS3</li>
+                    </ul>
                 </div>
-                <div class="referencia">
-                    <p class="nombre">MICHAEL ANDRÉS</p>
-                    <p class="lugar">Finca El Achote</p>
-                    <p class="telefono">T: +573143720809</p>
+
+                <div class="tarjeta-habilidad">
+                    <div class="icono-habilidad"><i class="fas fa-database"></i></div>
+                    <h3>Bases de Datos</h3>
+                    <ul>
+                        <li><i class="fas fa-server"></i> SQL (PostgreSQL, MySQL)</li>
+                        <li><i class="fas fa-cubes"></i> NoSQL (MongoDB)</li>
+                    </ul>
                 </div>
-            </section>
 
-        </aside>
+                <div class="tarjeta-habilidad">
+                    <div class="icono-habilidad"><i class="fas fa-users"></i></div>
+                    <h3>Habilidades Blandas</h3>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Actitud positiva y responsabilidad</li>
+                        <li><i class="fas fa-check-circle"></i> Trabajo en equipo y colaboración</li>
+                        <li><i class="fas fa-check-circle"></i> Rápido aprendizaje y adaptación</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-        <!-- PRINCIPAL -->
-        <main class="principal">
+        <section id="proyectos" class="seccion">
+            <h2 class="titulo-seccion">PROYECTOS DESTACADOS</h2>
+            <div class="grilla-proyectos">
+                
+                <div class="tarjeta-proyecto">
+                    <div class="info-proyecto">
+                        <h3>Sistema de Gestión Académica</h3>
+                        <p>Diseño y estructuración de base de datos relacional para la gestión de cursos, notas y profesores.</p>
+                        <div class="etiquetas">
+                            <span>SQL</span>
+                            <span>PostgreSQL</span>
+                            <span>Modelado MER</span>
+                        </div>
+                    </div>
+                </div>
 
-            <header class="encabezado">
-                <div class="datos">
-                    <h1>YOJHAN<br>FORERO</h1>
-                    <ul class="contacto">
-                        <li><i class="fas fa-map-marker-alt"></i> Calle 17 #19a-157, soacha, 250051, Colombia</li>
-                        <li><i class="fas fa-phone"></i> +573123413208</li>
+                <div class="tarjeta-proyecto">
+                    <div class="info-proyecto">
+                        <h3>Branding & Web Nube de Limón</h3>
+                        <p>Diseño de identidad visual y maquetación web para emprendimiento gastronómico.</p>
+                        <div class="etiquetas">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>UI/UX</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="experiencia" class="seccion">
+            <h2 class="titulo-seccion">TRAYECTORIA Y EDUCACIÓN</h2>
+
+            <div class="contenedor-dos-columnas">
+                
+                <div class="columna">
+                    <h3 class="subtitulo"><i class="fas fa-briefcase"></i> Experiencia Laboral</h3>
+                    
+                    <div class="linea-tiempo-item">
+                        <h4>Asistente de agricultor</h4>
+                        <span class="fecha">Ene. 2018 - Jun. 2025</span>
+                        <ul>
+                            <li>Apoyo en labores de cosecha, poda y mantenimiento general de cultivos.</li>
+                            <li>Trabajo en equipo, limpieza y aseo.</li>
+                            <li>Experiencia en preparación de suelos, fertilización y trasplante.</li>
+                        </ul>
+                    </div>
+
+                    <div class="linea-tiempo-item">
+                        <h4>Asistente de construcción</h4>
+                        <span class="fecha">Feb. 2025 - Jun. 2025</span>
+                        <ul>
+                            <li>Instalación de acabados: pañete y colocación de enchapes.</li>
+                            <li>Manejo de herramientas: taladros, pulidoras y cortadoras de baldosa.</li>
+                            <li>Aseo y limpieza.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="columna">
+                    <h3 class="subtitulo"><i class="fas fa-graduation-cap"></i> Educación & Cursos</h3>
+
+                    <div class="linea-tiempo-item">
+                        <h4>Análisis y Desarrollo de Software (ADSO)</h4>
+                        <span class="fecha">2025 - 2027 | SENA CIDE Soacha</span>
+                        <p>Formación tecnológica en ingeniería de software y desarrollo web.</p>
+                    </div>
+
+                    <div class="linea-tiempo-item">
+                        <h4>Desarrollo de Habilidades Digitales</h4>
+                        <span class="fecha">2025 | CIDE Soacha</span>
+                        <p>Complementaria virtual en comunicación y colaboración en línea.</p>
+                    </div>
+
+                    <div class="linea-tiempo-item">
+                        <h4>Aplicación de la Ética en Contexto Laboral</h4>
+                        <span class="fecha">2026 | CIDE Soacha Ciudad Verde</span>
+                        <p>Curso especial en habilidades sociales y laborales.</p>
+                    </div>
+
+                    <div class="linea-tiempo-item">
+                        <h4>Técnico en Agroindustria Alimentaria</h4>
+                        <span class="fecha">2024 | I.E.R.D. Guacamayas y SENA</span>
+                    </div>
+
+                    <div class="linea-tiempo-item">
+                        <h4>Bachiller</h4>
+                        <span class="fecha">2024 | I.E.R.D. La Esperanza Sede Guacamayas</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contacto" class="seccion">
+            <h2 class="titulo-seccion">CONTACTO</h2>
+            
+            <div class="contenedor-dos-columnas">
+                <div class="tarjeta-contacto">
+                    <h3><i class="fas fa-envelope"></i> Información de Contacto</h3>
+                    <ul class="lista-contacto">
+                        <li><i class="fas fa-map-marker-alt"></i> Calle 17 #19a-157, Soacha, Colombia</li>
+                        <li><i class="fas fa-phone"></i> +57 312 341 3208</li>
                         <li><i class="fas fa-envelope"></i> fforero422@gmail.com</li>
                     </ul>
                 </div>
-                <div class="foto">
-                    <img src="image.png" alt="Foto Yojhan Forero">
-                </div>
-            </header>
 
-            <section class="seccion">
-                <h2 class="titulo">EXPERIENCIA LABORAL</h2>
-
-                <div class="tarjeta">
-                    <div class="encabezado">
-                        <span class="puesto">Asistente de agricultor</span>
-                        <span class="fecha">ene. 2018 - jun. 2025</span>
+                <div class="tarjeta-contacto">
+                    <h3><i class="fas fa-user-check"></i> Referencias</h3>
+                    <div class="referencia-item">
+                        <strong>Yesid Forero</strong>
+                        <p>Finca El Achote | Tel: +57 322 226 6577</p>
                     </div>
-                    <ul>
-                        <li>Apoyo en labores de cosecha, poda y mantenimiento general de cultivos.</li>
-                        <li>Trabajo en equipo, limpieza y aseo.</li>
-                        <li>Experiencia en preparación de suelos, fertilización y trasplante.</li>
-                    </ul>
-                </div>
-
-                <div class="tarjeta">
-                    <div class="encabezado">
-                        <span class="puesto">Asistente de construcción</span>
-                        <span class="fecha">feb. 2025 - jun. 2025</span>
+                    <div class="referencia-item">
+                        <strong>Michael Andrés</strong>
+                        <p>Finca El Achote | Tel: +57 314 372 0809</p>
                     </div>
-                    <ul>
-                        <li>Instalación de acabados: pañete y colocación de enchapes.</li>
-                        <li>Manejo de herramientas: taladros, pulidoras y cortadoras de baldosa.</li>
-                        <li>Aseo y limpieza.</li>
-                    </ul>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section class="seccion">
-                <h2 class="titulo">EDUCACIÓN</h2>
-
-                <div class="tarjeta">
-                    <div class="encabezado">
-                        <span class="institucion">INSTITUCIÓN EDUCATIVA RURAL DEPARTAMENTAL LA ESPERANZA SEDE GUACAMAYAS</span>
-                        <span class="fecha">2024</span>
-                    </div>
-                    <p class="tituloestudio">Bachiller</p>
-                </div>
-
-                <div class="tarjeta">
-                    <div class="encabezado">
-                        <span class="institucion">I.E.R.D. GUACAMAYAS Y SENA</span>
-                        <span class="fecha">2024</span>
-                    </div>
-                    <p class="tituloestudio">TÉCNICO EN AGROINDUSTRIA ALIMENTARIA</p>
-                </div>
-
-                <div class="tarjeta">
-                    <div class="encabezado">
-                        <span class="institucion">CIDE SOACHA CIUDAD VERDE</span>
-                        <span class="fecha">2026<br><small>Soacha, Cundinamarca</small></span>
-                    </div>
-                    <p class="tituloestudio">CURSO ESPECIAL EN APLICACIÓN DE LA ÉTICA Y HABILIDADES SOCIALES EN EL CONTEXTO LABORAL</p>
-                </div>
-
-                <div class="tarjeta">
-                    <div class="encabezado">
-                        <span class="institucion">CIDE SOACHA</span>
-                        <span class="fecha">2025<br><small>Soacha, Cundinamarca</small></span>
-                    </div>
-                    <p class="tituloestudio">COMPLEMENTARIA VIRTUAL EN DESARROLLO DE HABILIDADES DIGITALES PARA LA COMUNICACIÓN Y COLABORACIÓN EN LÍNEA.</p>
-                </div>
-            </section>
-
-        </main>
     </div>
+
+    <footer class="pie-pagina">
+        <p>&copy; 2026 Yojhan Forero. Todos los derechos reservados.</p>
+    </footer>
 
 </body>
 </html>
