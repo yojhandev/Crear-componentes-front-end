@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio - Yojhan Forero | Desarrollador de Software</title>
     <link rel="stylesheet" href="estilo.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Lucide Icons (Librería ligera de iconos) -->
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
 
-<!-- From Uiverse.io by risabbir --> 
-<div class="container" aria-hidden="true"></div>
-
+    <!-- Fondo dinámico Aurora -->
+    <div class="container" aria-hidden="true"></div>
 
     <nav class="navegacion">
         <div class="logo">Yojhan<span>Forero</span></div>
@@ -38,7 +38,8 @@
                 </div>
             </div>
             <div class="hero-foto">
-<img src="image.png" alt="Foto de Yojhan Forero" width="190" height="220" loading="eager">            </div>
+                <img src="image.png" alt="Foto Yojhan Forero" width="190" height="220" loading="eager">
+            </div>
         </div>
     </header>
 
@@ -58,32 +59,32 @@
             
             <div class="grilla-habilidades">
                 <div class="tarjeta-habilidad">
-                    <div class="icono-habilidad"><i class="fas fa-code"></i></div>
+                    <div class="icono-habilidad"><i data-lucide="code"></i></div>
                     <h3>Desarrollo & Lenguajes</h3>
                     <ul>
-                        <li><i class="fab fa-python"></i> Python</li>
-                        <li><i class="fab fa-java"></i> Java</li>
-                        <li><i class="fab fa-js"></i> JavaScript</li>
-                        <li><i class="fab fa-html5"></i> HTML5 & CSS3</li>
+                        <li><i data-lucide="terminal" class="icono-lista"></i> Python</li>
+                        <li><i data-lucide="coffee" class="icono-lista"></i> Java</li>
+                        <li><i data-lucide="file-json" class="icono-lista"></i> JavaScript</li>
+                        <li><i data-lucide="layout" class="icono-lista"></i> HTML5 & CSS3</li>
                     </ul>
                 </div>
 
                 <div class="tarjeta-habilidad">
-                    <div class="icono-habilidad"><i class="fas fa-database"></i></div>
+                    <div class="icono-habilidad"><i data-lucide="database"></i></div>
                     <h3>Bases de Datos</h3>
                     <ul>
-                        <li><i class="fas fa-server"></i> SQL (PostgreSQL, MySQL)</li>
-                        <li><i class="fas fa-cubes"></i> NoSQL (MongoDB)</li>
+                        <li><i data-lucide="server" class="icono-lista"></i> SQL (PostgreSQL, MySQL)</li>
+                        <li><i data-lucide="boxes" class="icono-lista"></i> NoSQL (MongoDB)</li>
                     </ul>
                 </div>
 
                 <div class="tarjeta-habilidad">
-                    <div class="icono-habilidad"><i class="fas fa-users"></i></div>
+                    <div class="icono-habilidad"><i data-lucide="users"></i></div>
                     <h3>Habilidades Blandas</h3>
                     <ul>
-                        <li><i class="fas fa-check-circle"></i> Actitud positiva y responsabilidad</li>
-                        <li><i class="fas fa-check-circle"></i> Trabajo en equipo y colaboración</li>
-                        <li><i class="fas fa-check-circle"></i> Rápido aprendizaje y adaptación</li>
+                        <li><i data-lucide="check-circle-2" class="icono-lista"></i> Actitud positiva y responsabilidad</li>
+                        <li><i data-lucide="check-circle-2" class="icono-lista"></i> Trabajo en equipo y colaboración</li>
+                        <li><i data-lucide="check-circle-2" class="icono-lista"></i> Rápido aprendizaje y adaptación</li>
                     </ul>
                 </div>
             </div>
@@ -126,7 +127,7 @@
             <div class="contenedor-dos-columnas">
                 
                 <div class="columna">
-                    <h3 class="subtitulo"><i class="fas fa-briefcase"></i> Experiencia Laboral</h3>
+                    <h3 class="subtitulo"><i data-lucide="briefcase"></i> Experiencia Laboral</h3>
                     
                     <div class="linea-tiempo-item">
                         <h4>Asistente de agricultor</h4>
@@ -150,7 +151,7 @@
                 </div>
 
                 <div class="columna">
-                    <h3 class="subtitulo"><i class="fas fa-graduation-cap"></i> Educación & Cursos</h3>
+                    <h3 class="subtitulo"><i data-lucide="graduation-cap"></i> Educación & Cursos</h3>
 
                     <div class="linea-tiempo-item">
                         <h4>Análisis y Desarrollo de Software (ADSO)</h4>
@@ -189,16 +190,16 @@
             
             <div class="contenedor-dos-columnas">
                 <div class="tarjeta-contacto">
-                    <h3><i class="fas fa-envelope"></i> Información de Contacto</h3>
+                    <h3><i data-lucide="mail"></i> Información de Contacto</h3>
                     <ul class="lista-contacto">
-                        <li><i class="fas fa-map-marker-alt"></i> Calle 17 #19a-157, Soacha, Colombia</li>
-                        <li><i class="fas fa-phone"></i> +57 312 341 3208</li>
-                        <li><i class="fas fa-envelope"></i> fforero422@gmail.com</li>
+                        <li><i data-lucide="map-pin"></i> Calle 17 #19a-157, Soacha, Colombia</li>
+                        <li><i data-lucide="phone"></i> +57 312 341 3208</li>
+                        <li><i data-lucide="mail"></i> fforero422@gmail.com</li>
                     </ul>
                 </div>
 
                 <div class="tarjeta-contacto">
-                    <h3><i class="fas fa-user-check"></i> Referencias</h3>
+                    <h3><i data-lucide="user-check"></i> Referencias</h3>
                     <div class="referencia-item">
                         <strong>Yesid Forero</strong>
                         <p>Finca El Achote | Tel: +57 322 226 6577</p>
@@ -217,5 +218,9 @@
         <p>&copy; 2026 Yojhan Forero. Todos los derechos reservados.</p>
     </footer>
 
+    <!-- Script para renderizar los iconos de Lucide -->
+    <script>
+      lucide.createIcons();
+    </script>
 </body>
 </html>
